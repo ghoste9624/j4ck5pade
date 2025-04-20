@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $HOME 
+
 apt update && apt upgrade -y && apt install git python termux-api lynx lychee traceroute whois nmap ruby -y
 cd $HOME
 git clone https://github.com/CPScript/Reaper

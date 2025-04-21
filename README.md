@@ -8,7 +8,8 @@ pkg install git -y && git clone https://github.com/ghoste9624/j4ck5pade && cd j4
 
 <br>
 <br>
-
-[ghoste9624](https://github.com/ghoste9624)
 <br>
+
 ![Visitor Count](https://profile-counter.glitch.me/{ghoste9624}/count.svg)
+<br>
+[ghoste9624](https://github.com/ghoste9624)

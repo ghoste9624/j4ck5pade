@@ -76,8 +76,9 @@ whois $domain
       read -p "Target: " url
      content=$(curl -s "$url")
 
-cd ct-exposer && python ct-exposer.py -d $url -u -m
+cd $HOME && cd ct-exposer && python ct-exposer.py -d $url -u -m
 
+cd $HOME
       ;;
     3)
       echo "Executing IP Reaper..."

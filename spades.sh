@@ -78,13 +78,16 @@ whois $domain
 
 cd $HOME && cd ct-exposer && python ct-exposer.py -d $url -u -m
 
-cd $HOME
+cd $HOME && cd j4ck5pade  
+      
       ;;
     3)
       echo "Executing IP Reaper..."
       # Add code for option 3 here
-      cd Reaper && python3 finder.py
+cd $HOME && cd Reaper && python3 finder.py
 
+Cd $HOME && cd j4ck5pade
+ 
       ;;
     4)
       echo "Enter Url..."

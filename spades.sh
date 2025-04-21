@@ -69,17 +69,25 @@ while true; do
 
 content=$(curl -s "$domain")                                                                                                                           
 whois $domain
-
       ;;
     2)
-      echo "Executing IP Reaper..."
+      echo "Enter Domain..."
       # Add code for option 2 here
-      cd Reaper && python3 finder.py
+      read -p "Target: " url
+     content=$(curl -s "$url")
+
+cd ct-exposer && python ct-exposer.py -d $url -u -m
 
       ;;
     3)
-      echo "Enter Url..."
+      echo "Executing IP Reaper..."
       # Add code for option 3 here
+      cd Reaper && python3 finder.py
+
+      ;;
+    4)
+      echo "Enter Url..."
+      # Add code for option 4 here
 rm -rf .lycheecache
 rm -rf cookie_jar
 rm -rf results
@@ -97,9 +105,9 @@ cat cookie_jar
       echo "Files saved in home directory..."
 
       ;;
-    4)
+    5)
       echo "Enter Domain..."
-      # Add code for option 4 here
+      # Add code for option 5 here
       read -p "Target: " url
 
 content=$(curl -s "$url")
@@ -109,27 +117,27 @@ nmap -sV -A $url --script-trace --script=http-headers --unprivileged -o $url
       echo "Files saved in home directory..."
 
       ;;
-    5)
+    6)
       echo "Enter Domain/IP"
-      # Add code for option 5 here
+      # Add code for option 6 here
       read -p "Target: " url
 content=$(curl -s "$url")
 
 traceroute $url
 
       ;;
-    6)
+    7)
       echo "Dork..."
-      # Add code for option 6 here
+      # Add code for option 7 here
       read -p "Target: " url
      content=$(curl -s "$url")
 
 google $url
 
       ;;
-     7)
+     8)
       echo "Enter Username..."
-      # Add code for option 7 here
+      # Add code for option 8 here
       read -p "Target: " url
      content=$(curl -s "$url")
 
@@ -140,34 +148,34 @@ search4 -u $url
 nexfil -u $url
 
        ;;
-     8)
+     9)
 echo "Searching Username..."
-      # Add code for option 8 here
+      # Add code for option 9 here
      command=(netizenship)
 
            "${command[@]}"
 
        ;;
-     9)
+    10)
       echo "Enter Email..."
-      # Add code for option 9 here
+      # Add code for option 10 here
       read -p "Target: " url
      content=$(curl -s "$url")
 
 holehe $url
 
       ;;
-    10)
+    11)
       echo "Searching Google..."
-      # Add code for option 10 here
+      # Add code for option 11 here
      command=(lynx google.com)
 
            "${command[@]}"
 
        ;;
-    11)
+    12)
       echo "Enter Url..."
-      # Add code for option 11 here
+      # Add code for option 12 here
       read -p "Target: " url
      content=$(curl -s "$url")
 
@@ -175,9 +183,9 @@ termux-open $url
 
 
        ;;
-    12)
+    13)
       echo "Checking your Information..."
-      # Add code for option 12 here
+      # Add code for option 13 here
      command=(curl ipinfo.io)
 
            "${command[@]}"

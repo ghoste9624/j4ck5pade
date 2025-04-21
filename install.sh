@@ -1,9 +1,11 @@
-apt update && apt upgrade -y && apt install git python termux-api lynx lychee traceroute whois nmap curl ruby -y
+apt update && apt upgrade -y && apt install git python termux-api lynx lychee traceroute binutils whois nmap curl ruby -y
 cd $HOME
 git clone https://github.com/CPScript/Reaper
 cd Reaper
 pip install -r requirements.txt
-
+cd $HOME
+git clone https://github.com/chris408/ct-exposer
+cd ct-exposer
 cd $HOME
 
 pip install google
@@ -15,5 +17,6 @@ pip install --upgrade netizenship
 pip install nexfil
 pip install holehe
 pip install setuptools 
+pip install gevent
 
 pkg update && pkg upgrade -y && apt autoremove && apt autoclean -y

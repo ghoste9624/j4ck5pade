@@ -2,7 +2,7 @@
 
 cd $HOME 
 
-echo -e "\e[31m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+echo -e "\e[1;91m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -44,19 +44,19 @@ ________________________________________
 while true; do
 
   echo  ""
-  echo -e "  \e[34m[\e[36m01\e[34m] \e[32mDomain Info"
-  echo -e "  \e[34m[\e[36m02\e[34m] \e[32mIP Tracer"
-  echo -e "  \e[34m[\e[36m03\e[34m] \e[32mUrls/Cookies"
-  echo -e "  \e[34m[\e[36m04\e[34m] \e[32mScript-trace/Headers"
-  echo -e "  \e[34m[\e[36m05\e[34m] \e[32mTraceroute"
-  echo -e "  \e[34m[\e[36m06\e[34m] \e[32mDorks"
-  echo -e "  \e[34m[\e[36m07\e[34m] \e[32mUser Search 1"   
-  echo -e "  \e[34m[\e[36m08\e[34m] \e[32mUser Search 2"                                                                                                 
-  echo -e "  \e[34m[\e[36m09\e[34m] \e[32mEmail Search"
-  echo -e "  \e[34m[\e[36m10\e[34m] \e[32mSearch Google"
-  echo -e "  \e[34m[\e[36m11\e[34m] \e[32mOpen Browser"
-  echo -e "  \e[34m[\e[36m12\e[34m] \e[32mSecurity Check"
-  echo -e "  \e[34m[\e[36m00\e[34m] \e[32mExit"
+  echo -e "  \e[1;34m[\e[1;96m01\e[1;34m] \e[1;92mDomain Info"
+  echo -e "  \e[1;34m[\e[1;96m02\e[1;34m] \e[1;92mIP Tracer"
+  echo -e "  \e[1;34m[\e[1;96m03\e[1;34m] \e[1;92mUrls/Cookies"
+  echo -e "  \e[1;34m[\e[1;96m04\e[1;34m] \e[1;92mScript-trace/Headers"
+  echo -e "  \e[1;34m[\e[1;96m05\e[1;34m] \e[1;92mTraceroute"
+  echo -e "  \e[1;34m[\e[1;96m06\e[1;34m] \e[1;92mDorks"
+  echo -e "  \e[1;34m[\e[1;96m07\e[1;34m] \e[1;92mUser Search 1"   
+  echo -e "  \e[1;34m[\e[1;96m08\e[1;34m] \e[1;92mUser Search 2"                                                                                                 
+  echo -e "  \e[1;34m[\e[1;96m09\e[1;34m] \e[1;92mEmail Search"
+  echo -e "  \e[1;34m[\e[1;96m10\e[1;34m] \e[1;92mSearch Google"
+  echo -e "  \e[1;34m[\e[1;96m11\e[1;34m] \e[1;92mOpen Browser"
+  echo -e "  \e[1;34m[\e[1;96m12\e[1;34m] \e[1;92mSecurity Check"
+  echo -e "  \e[1;34m[\e[1;96m00\e[1;34m] \e[1;92mExit"
 
   read -p "Enter your choice: " choice
 

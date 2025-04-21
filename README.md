@@ -4,6 +4,7 @@ Information Gathering
 ```bash
 git clone https://github.com/ghoste9624/j4ck5pade
 cd j4ck5pade
-chmod +x * install.sh
+chmod +x *
+./install.sh
 ./spades.sh
 ```

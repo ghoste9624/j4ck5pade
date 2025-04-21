@@ -6,8 +6,9 @@
 pkg install git -y && git clone https://github.com/ghoste9624/j4ck5pade && cd j4ck5pade && chmod +x * && ./install.sh && ./spades.sh
 ```
 
+<br>
+<br>
+
 [ghoste9624](https://github.com/ghoste9624)
 <br>
-<br>
- 
 ![Visitor Count](https://profile-counter.glitch.me/{ghoste9624}/count.svg)

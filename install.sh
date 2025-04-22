@@ -1,6 +1,5 @@
 apt update && apt upgrade -y && apt install git python termux-api lynx lychee traceroute binutils whois nmap curl ruby -y
 cd $HOME
-rm -rf j4ck5pade
 git clone https://github.com/CPScript/Reaper
 cd Reaper
 pip install -r requirements.txt

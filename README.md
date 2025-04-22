@@ -8,7 +8,9 @@
 
 <br>
 <br>
+
 # Installation 
+
 <br>
 <br>
 
@@ -18,7 +20,9 @@ pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/g
 
 <br>
 <br>
+
 # New Features coming soon
+
 <br>
 <br>
 <br>

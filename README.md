@@ -7,11 +7,8 @@
 ![alt text](https://github.com/ghoste9624/j4ck5pade/blob/main/files%2FScreenshot_20250421-204505_Termux.jpg)
 
 <br>
-<br>
 
 # Installation 
-
-<br>
 
 ```bash
 pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/ghoste9624/j4ck5pade && cd j4ck5pade && chmod +x * && ./install.sh && ./spades.sh
@@ -20,9 +17,8 @@ pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/g
 <br>
 <br>
 
-# New Features coming soon
+# New Features Coming Soon
 
-<br>
 <br>
 <br>
 

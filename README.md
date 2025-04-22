@@ -4,15 +4,15 @@
 <br>
 <br>
 
-![alt text](https://github.com/ghoste9624/j4ck5pade/blob/main/files%2FScreenshot_20250420-200656_Termux.jpg)
+![alt text](https://github.com/ghoste9624/j4ck5pade/blob/main/files%2FScreenshot_20250421-204505_Termux.jpg)
 
 <br>
 <br>
-
+Installation 
 ```bash
 pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/ghoste9624/j4ck5pade && cd j4ck5pade && chmod +x * && ./install.sh && ./spades.sh
 ```
-
+New Features coming soon
 <br>
 <br>
 <br>

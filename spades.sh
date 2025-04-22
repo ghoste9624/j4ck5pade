@@ -211,6 +211,11 @@ holehe $url
 
       ;;
    00)
+      # Add fortune here
+      command=(fortune)
+ 
+           "${command[@]}"
+ 
       echo "Exiting..."
       break
       ;;                                                                                                                                                   *)

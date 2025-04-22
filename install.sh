@@ -14,7 +14,6 @@ pip install socialscan
 pip install --upgrade ipwhois
 pip install -U search4 
 pip install --upgrade netizenship
-pip install nexfil
 pip install holehe
 pip install setuptools 
 pip install gevent

@@ -77,8 +77,6 @@ whois $domain
      content=$(curl -s "$url")
 
 cd $HOME && cd ct-exposer && python ct-exposer.py -d $url -u -m
-
-cd $HOME && cd j4ck5pade  
       
       ;;
     3)
@@ -86,8 +84,6 @@ cd $HOME && cd j4ck5pade
       # Add code for option 3 here
 cd $HOME && cd Reaper && python3 finder.py
 
-Cd $HOME && cd j4ck5pade
- 
       ;;
     4)
       echo "Enter Url..."

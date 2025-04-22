@@ -68,7 +68,7 @@ while true; do
     1)
       echo "Enter Domain..."
       # Add code for option 1 here
-      read -p "Target: " domain
+      read -p " Target: " domain
 
 content=$(curl -s "$domain")                                                                                                                           
 whois $domain
@@ -77,7 +77,7 @@ whois $domain
     2)
       echo "Enter Domain..."
       # Add code for option 2 here
-      read -p "Target: " url
+      read -p " Target: " url
      content=$(curl -s "$url")
 
 cd $HOME && cd ct-exposer && python ct-exposer.py -d $url -u -m
@@ -93,7 +93,7 @@ cd $HOME && cd j4ck5pade
     4)
       echo "Enter Domain..."
       # Add code for option 4 here
-      read -p "Target: " url
+      read -p " Target: " url
 
 content=$(curl -s "$url")
 
@@ -105,7 +105,7 @@ nmap -sV -A $url --script-trace --script=http-headers --unprivileged -o $url
     5)
       echo "Enter Domain/IP"
       # Add code for option 5 here
-      read -p "Target: " url
+      read -p " Target: " url
 content=$(curl -s "$url")
 
 traceroute $url
@@ -118,7 +118,7 @@ rm -rf .lycheecache
 rm -rf cookie_jar
 rm -rf results
 
-read -p "Target: " url
+read -p " Target: " url
 
 content=$(curl -s "$url")
 lychee $url --verbose --cache --include-mail --suggest --archive wayback --hidden --include-verbatim --include-fragments --no-ignore --format detailed --cookie-jar cookie_jar --output results
@@ -134,7 +134,7 @@ cat cookie_jar
     7)
       echo "Enter Link/Url..."
       # Add code for option 7 here
-      read -p "Target: " url
+      read -p " Target: " url
  
 content=$(curl -s "$url")
  
@@ -152,7 +152,7 @@ echo "Searching Bad Urls..."
     9)
       echo "Enter Username..."
       # Add code for option 9 here
-      read -p "Target: " url
+      read -p " Target: " url
      content=$(curl -s "$url")
 
 linkook $url --concise --show-summary --check-breach --scan-all --print-all
@@ -172,7 +172,7 @@ echo "Searching Username..."
     11)
       echo "Enter Url..."
       # Add code for option 11 here
-      read -p "Target: " url
+      read -p " Target: " url
      content=$(curl -s "$url")
 
 termux-open $url
@@ -181,7 +181,7 @@ termux-open $url
     12)
       echo "Dork..."
       # Add code for option 12 here
-      read -p "Target: " url
+      read -p " Target: " url
      content=$(curl -s "$url")
 
 google $url
@@ -190,7 +190,7 @@ google $url
     13)
       echo "Enter Email..."
       # Add code for option 13 here
-      read -p "Target: " url
+      read -p " Target: " url
      content=$(curl -s "$url")
 
 holehe $url

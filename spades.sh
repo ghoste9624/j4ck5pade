@@ -77,7 +77,7 @@ whois $domain
      content=$(curl -s "$url")
 
 cd $HOME && cd ct-exposer && python ct-exposer.py -d $url -u -m
-cd $HOME && cd j4ck5pade     
+ 
       ;;
     3)
       echo "Executing IP Reaper..."

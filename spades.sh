@@ -159,8 +159,6 @@ linkook $url --concise --show-summary --check-breach --scan-all --print-all
 
 search4 -u $url
 
-nexfil -u $url
-
        ;;
     10)
 echo "Searching Username..."

@@ -18,5 +18,7 @@ pip install nexfil
 pip install holehe
 pip install setuptools 
 pip install gevent
+pip install linkchecker 
+pip install badurls 
 
 pkg update && pkg upgrade -y && apt autoremove && apt autoclean -y

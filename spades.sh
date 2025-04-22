@@ -87,7 +87,7 @@ cd $HOME && cd ct-exposer && python ct-exposer.py -d $url -u -m
 cd $HOME && cd Reaper && python3 finder.py
 cd $HOME && cd j4ck5pade 
       ;;
-    4)
+    6)
       echo "Enter Url..."
       # Add code for option 4 here
 rm -rf .lycheecache
@@ -106,8 +106,26 @@ cat cookie_jar
 
       echo "Files saved in home directory..."
 
-      ;;
-    5)
+       ;;
+     7)
+      echo "Enter Link/Url..."
+      # Add code for option 7 here
+      read -p "Target: " url
+ 
+content=$(curl -s "$url")
+ 
+linkchecker $url 
+ 
+       ;;
+     8)
+echo "Searching Bad Urls..."
+      # Add code for option 8 here
+     command=(badurls)
+ 
+           "${command[@]}"
+         
+        ;;
+      5)
       echo "Enter Domain..."
       # Add code for option 5 here
       read -p "Target: " url

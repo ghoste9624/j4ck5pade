@@ -45,7 +45,7 @@ while true; do
 
   echo  ""
   echo -e "  \e[1;34m[\e[1;96m01\e[1;34m] \e[1;92mDomain Info"
-  echo -e "  \e[1;34m[\e[1;96m02\e[1;34m] \e[1;92mSub-Domain Search"
+  echo -e "  \e[1;34m[\e[1;96m02\e[1;34m] \e[1;92mSub-Domain Finder"
   echo -e "  \e[1;34m[\e[1;96m03\e[1;34m] \e[1;92mIP Tracer"
   echo -e "  \e[1;34m[\e[1;96m04\e[1;34m] \e[1;92mUrls/Cookies"
   echo -e "  \e[1;34m[\e[1;96m05\e[1;34m] \e[1;92mScript-trace/Headers"
@@ -77,13 +77,13 @@ whois $domain
      content=$(curl -s "$url")
 
 cd $HOME && cd ct-exposer && python ct-exposer.py -d $url -u -m
-      
+cd $HOME && cd j4ck5pade     
       ;;
     3)
       echo "Executing IP Reaper..."
       # Add code for option 3 here
 cd $HOME && cd Reaper && python3 finder.py
-
+cd $HOME && cd j4ck5pade 
       ;;
     4)
       echo "Enter Url..."

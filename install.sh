@@ -1,4 +1,4 @@
-apt update && apt upgrade -y && apt install git python termux-api lynx lychee traceroute binutils whois nmap curl ruby -y
+apt update && apt upgrade -y && apt install git python fortune termux-api lynx lychee traceroute binutils whois nmap curl ruby -y
 cd $HOME
 git clone https://github.com/CPScript/Reaper
 cd Reaper

@@ -12,7 +12,6 @@
 # Installation 
 
 <br>
-<br>
 
 ```bash
 pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/ghoste9624/j4ck5pade && cd j4ck5pade && chmod +x * && ./install.sh && ./spades.sh

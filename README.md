@@ -17,7 +17,12 @@ pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/g
 <br>
 <br>
 
-# New Features Coming Soon
+# Last Update:
+
+<br>
+
+April 22, 2025 12:00 EDT
+
 
 <br>
 <br>

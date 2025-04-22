@@ -17,7 +17,7 @@ pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/g
 <br>
 <br>
 
-# Last Updated:
+# Last Updated
 
 ``
 April 22, 2025 16:20 EDT

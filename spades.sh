@@ -207,8 +207,8 @@ holehe $url
 
            "${command[@]}"
 
-      ;;
-   00)
+       ;;
+    00)
       # Add fortune here
       command=(fortune)
  
@@ -216,8 +216,10 @@ holehe $url
  
       echo " Exiting..."
       break
-      ;;                                                                                                                                                   *)
+       
+       ;;
+     *)
       echo " Invalid choice. Please try again."
-      ;;
+       ;;
   esac
 done

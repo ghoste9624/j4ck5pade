@@ -216,10 +216,10 @@ holehe $url
  
            "${command[@]}"
  
-      echo "Exiting..."
+      echo " Exiting..."
       break
       ;;                                                                                                                                                   *)
-      echo "Invalid choice. Please try again."
+      echo " Invalid choice. Please try again."
       ;;
   esac
 done

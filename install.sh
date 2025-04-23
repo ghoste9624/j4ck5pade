@@ -1,6 +1,6 @@
 apt update && apt upgrade -y && apt install git python fortune termux-api lynx lychee traceroute binutils whois nmap curl w3m wget ruby -y
 cd $HOME
-git clone https://github.com/Amriez/ipmux
+git clone https://github.com/Amriez/ipmux
 cd ipmux
 cd $HOME
 git clone https://github.com/chris408/ct-exposer

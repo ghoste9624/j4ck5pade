@@ -7,6 +7,7 @@ cd $HOME
 git clone https://github.com/chris408/ct-exposer
 cd ct-exposer
 cd $HOME
+rm -rf spades
 cd j4ck5pade
 cp spades.sh spades
 mv spades ~/

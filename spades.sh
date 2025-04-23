@@ -84,7 +84,7 @@ cd $HOME && cd ct-exposer && python ct-exposer.py -d $url -u -m
     3)
       echo "Executing IP Reaper..."
       # Add code for option 3 here
-cd $HOME && cd Reaper && python3 finder.py
+cd $HOME && cd ipmux && sh ipmux.sh
 cd $HOME && cd j4ck5pade 
       
       ;;

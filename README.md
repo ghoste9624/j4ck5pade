@@ -4,13 +4,15 @@
 <br>
 <br>
 
-![alt text](https://github.com/ghoste9624/j4ck5pade/blob/main/files%2FScreenshot_20250422-140434_Termux.jpg)
-
 # Installation
 
 <br>
 
 # Termux
+
+![alt text](https://github.com/ghoste9624/j4ck5pade/blob/main/files%2FScreenshot_20250422-140434_Termux.jpg)
+
+<br>
 
 ```bash
 pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/ghoste9624/j4ck5pade && cd j4ck5pade && chmod +x * && ./install.sh && ./spades.sh
@@ -18,11 +20,11 @@ pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/g
 
 <br>
 
+# Kali Linux 
+
 ![alt text](https://github.com/ghoste9624/j4ck5pade/blob/main/files%2FScreenshot_20250425-160458_Termux.jpg)
 
 <br>
-
-# Kali Linux 
 
 ```bash 
 apt install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/ghoste9624/j4ck5pade && cd j4ck5pade && chmod +x * && ./kali-install.sh && ./kali-spades.sh

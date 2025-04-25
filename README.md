@@ -18,6 +18,10 @@ pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/g
 
 <br>
 
+![alt text](https://github.com/ghoste9624/j4ck5pade/blob/main/files%2FScreenshot_20250425-160458_Termux.jpg)
+
+<br>
+
 # Kali Linux 
 
 ```bash 

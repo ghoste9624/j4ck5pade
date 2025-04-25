@@ -6,9 +6,10 @@
 
 ![alt text](https://github.com/ghoste9624/j4ck5pade/blob/main/files%2FScreenshot_20250422-140434_Termux.jpg)
 
+# Installation
+
 <br>
 
-# Installation
 # Termux
 
 ```bash
@@ -17,7 +18,6 @@ pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/g
 
 <br>
 
-# Installation
 # Kali Linux 
 
 ```bash 

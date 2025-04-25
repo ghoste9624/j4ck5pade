@@ -97,7 +97,7 @@ content=$(curl -s "$url")
 
 nmap -sV -A $url --script-trace --script=http-headers --unprivileged -o $url
 
-      echo "Files saved in home directory..."
+      echo "File saved: $url..."
 
       ;;
     5)

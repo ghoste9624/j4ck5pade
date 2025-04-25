@@ -2,7 +2,6 @@
    Information Gathering Tool
 
 <br>
-<br>
 
 # Installation
 

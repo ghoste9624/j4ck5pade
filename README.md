@@ -8,10 +8,18 @@
 
 <br>
 
-# Installation 
+# Installation - Termux
 
 ```bash
 pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/ghoste9624/j4ck5pade && cd j4ck5pade && chmod +x * && ./install.sh && ./spades.sh
+```
+
+<br>
+
+#Installation - Kali Linux 
+
+```bash 
+apt install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/ghoste9624/j4ck5pade && cd j4ck5pade && chmod +x * && ./kali-install.sh && ./kali-spades.sh
 ```
 
 <br>
@@ -20,7 +28,7 @@ pkg install git -y && cd ~ && rm -rf j4ck5pade && git clone https://github.com/g
 # Last Updated
 
 ``
-April 23, 2025 19:40 EDT
+April 25, 2025 15:20 EDT
 ``
 
 <br>

@@ -80,7 +80,7 @@ echo -e "\e[0;94m________________________________________
       read -p " Target: " url
       content=$(curl -s "$url")
       assetfinder $url
-      dnsrecon -d $url -v -f -a -s -k -z
+      dnsrecon -d $url -v -f -a -k -z
 
       ;;
     3)

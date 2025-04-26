@@ -70,7 +70,7 @@ ________________________________________\e[1;92m"
 
 content=$(curl -s "$domain")                                                                                                                           
 whois $domain
-     
+nslookup $domain     
       ;;
     2)
       echo "Enter Domain..."

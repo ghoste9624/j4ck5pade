@@ -165,7 +165,7 @@ echo -e "\e[0;94m________________________________________
       content=$(curl -s "$url")
       photon -u $url -v
       echo ""
-      echo -e  "  \e[1;93mFiles saved in home directory..."
+      echo -e  "  \e[1;93mFiles saved in $url..."
 
        ;;
     13)

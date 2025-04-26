@@ -70,6 +70,8 @@ echo -e "\e[0;94m________________________________________
       read -p " Target: " domain
       content=$(curl -s "$domain")
       whois $domain
+      echo ""
+      nslookup $domain
 
       ;;
     2)

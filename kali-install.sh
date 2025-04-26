@@ -1,4 +1,4 @@
-apt full-upgrade -y && apt install git python3 display-dhammapada whatweb linkchecker lynx dnstwist assetfinder dnsrecon sherlock subnetcalc photon traceroute python3-gevent python3-colorama binutils tlssled sslscan sslyze whois w3m wget nmap curl -y
+apt full-upgrade -y && apt install git python3 display-dhammapada whatweb linkchecker lynx dnstwist assetfinder dnsrecon sherlock subnetcalc photon traceroute python3-gevent python3-colorama dnsutils binutils tlssled sslscan sslyze whois w3m wget nmap curl -y
   
 cd $HOME
 git clone https://github.com/Amriez/ipmux

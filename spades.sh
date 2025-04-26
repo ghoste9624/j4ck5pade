@@ -67,82 +67,73 @@ ________________________________________\e[1;92m"
       echo "Enter Domain..."
       # Add code for option 1 here
       read -p " Target: " domain
+      content=$(curl -s "$domain")                                                                                                                           
+      whois $domain
+      echo ""
+      nslookup $domain     
 
-content=$(curl -s "$domain")                                                                                                                           
-whois $domain
-nslookup $domain     
       ;;
     2)
       echo "Enter Domain..."
       # Add code for option 2 here
       read -p " Target: " url
-     content=$(curl -s "$url")
-
-cd $HOME && cd ct-exposer && python ct-exposer.py -d $url -u -m
+      content=$(curl -s "$url")
+      cd $HOME && cd ct-exposer && python ct-exposer.py -d $url -u -m
       
       ;;
     3)
       echo "Executing IP Tracer..."
       # Add code for option 3 here
-cd $HOME && cd ipmux && sh ipmux.sh
-cd $HOME && cd j4ck5pade 
+      cd $HOME && cd ipmux && sh ipmux.sh
+      cd $HOME && cd j4ck5pade 
       
       ;;
     4)
       echo "Enter Domain..."
       # Add code for option 4 here
       read -p " Target: " url
-
-content=$(curl -s "$url")
-
-nmap -sV -A $url --script-trace --script=http-headers --unprivileged -o $url
-
-      echo "File saved: $url"
+      content=$(curl -s "$url")
+      nmap -sV -A $url --script-trace --script=http-headers --unprivileged -o $url
+      echo ""
+      echo -e "   \e[1;33mFile saved: $url"
 
       ;;
     5)
       echo "Enter Domain/IP"
       # Add code for option 5 here
       read -p " Target: " url
-content=$(curl -s "$url")
-
-traceroute $url
+      content=$(curl -s "$url")
+      traceroute $url
       
       ;;      
     6)
       echo "Enter Url..."
       # Add code for option 6 here
-rm -rf .lycheecache
-rm -rf cookie_jar
-rm -rf results
-
-read -p " Target: " url
-
-content=$(curl -s "$url")
-lychee $url --verbose --cache --include-mail --suggest --archive wayback --hidden --include-verbatim --include-fragments --no-ignore --format detailed --cookie-jar cookie_jar --output results
-
-cat .lycheecache
-cat results
-cat cookie_jar
-
-
-      echo "Files saved in home directory..."
+      read -p " Target: " url
+      content=$(curl -s "$url")
+      rm -rf .lycheecache
+      rm -rf cookie_jar
+      rm -rf results
+      lychee $url --verbose --cache --include-mail --suggest --archive wayback --hidden --include-verbatim --include-fragments --no-ignore --format detailed --cookie-jar cookie_jar --output results
+      cat .lycheecache
+      cat results
+      cat cookie_jar
+      echo ""
+      echo -e "   \e[1;33mFiles saved in home directory..."
 
       ;;
     7)
       echo "Enter Link/Url..."
       # Add code for option 7 here
       read -p " Target: " url
- 
-content=$(curl -s "$url")
- 
-linkchecker $url 
+      content=$(curl -s "$url")
+      linkchecker $url 
  
       ;;
     8)
-echo "Searching Bad Urls..."
+      echo "Searching Bad Urls..."
       # Add code for option 8 here
-     command=(badurls)
+      command=(badurls)
  
            "${command[@]}"
      
@@ -151,17 +142,15 @@ echo "Searching Bad Urls..."
       echo "Enter Username..."
       # Add code for option 9 here
       read -p " Target: " url
-     content=$(curl -s "$url")
-
-linkook $url --concise --show-summary --check-breach --scan-all --print-all
-
-search4 -u $url
+      content=$(curl -s "$url")
+      linkook $url --concise --show-summary --check-breach --scan-all --print-all
+      search4 -u $url
 
        ;;
     10)
-echo "Searching Username..."
+      echo "Searching Username..."
       # Add code for option 10 here
-     command=(netizenship)
+      command=(netizenship)
 
            "${command[@]}"
        ;;
@@ -169,33 +158,30 @@ echo "Searching Username..."
       echo "Enter Url..."
       # Add code for option 11 here
       read -p " Target: " url
-     content=$(curl -s "$url")
-
-termux-open $url
+      content=$(curl -s "$url")
+      termux-open $url
       
        ;;
     12)
       echo "Dork..."
       # Add code for option 12 here
       read -p " Target: " url
-     content=$(curl -s "$url")
-
-google $url
+      content=$(curl -s "$url")
+      google $url
 
        ;;
     13)
       echo "Enter Email..."
       # Add code for option 13 here
       read -p " Target: " url
-     content=$(curl -s "$url")
-
-holehe $url
+      content=$(curl -s "$url")
+      holehe $url
 
        ;;
     14)
       echo "Searching Google..."
       # Add code for option 14 here
-     command=(lynx google.com)
+      command=(lynx google.com)
 
            "${command[@]}"
 
@@ -203,7 +189,7 @@ holehe $url
     15)
       echo "Checking your Information..."
       # Add code for option 15 here
-     command=(curl ipinfo.io)
+      command=(curl ipinfo.io)
 
            "${command[@]}"
 

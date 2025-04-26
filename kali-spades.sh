@@ -157,7 +157,8 @@ echo -e "\e[0;94m________________________________________
 
        ;;
     12)
-      echo "Enter Url..."                                                                                                                                    # Add code for option 12 here
+      echo "Enter Url..." 
+      # Add code for option 12 here
       read -p " Target: " url
       content=$(curl -s "$url")
       photon -u $url -v

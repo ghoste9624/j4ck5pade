@@ -98,7 +98,7 @@ echo -e "\e[0;94m________________________________________
       cd $HOME
       nmap -sV -A $url --script-trace --script=http-headers --unprivileged -o $url
       echo ""
-      echo -e  "  \e[1;93mFile saved: $url"
+      echo -e  "  \e[1;93mFile saved in home directory: $url"
 
       ;;
     5)
@@ -164,9 +164,10 @@ echo -e "\e[0;94m________________________________________
       # Add code for option 12 here
       read -p " Target: " url
       content=$(curl -s "$url")
+      cd $HOME
       photon -u $url -v
       echo ""
-      echo -e  "  \e[1;93mFiles saved in $url..."
+      echo -e  "  \e[1;93mFile saved in home directory: $url"
 
        ;;
     13)
@@ -174,6 +175,7 @@ echo -e "\e[0;94m________________________________________
       # Add code for option 13 here
       read -p " Target: " url
       content=$(curl -s "$url")
+      cd $HOME 
       tlssled $url 443
       sslscan $url
       sslyze $url

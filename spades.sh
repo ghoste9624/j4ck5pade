@@ -41,7 +41,7 @@ while true; do
  --==[ j4ck5pade
  --==[ https://github.com/ghoste9624
 ________________________________________\e[1;92m"
- echo -e ""
+  echo -e ""
   echo -e "  \e[1;34m[\e[1;96m01\e[1;34m] \e[1;92mDomain Info"
   echo -e "  \e[1;34m[\e[1;96m02\e[1;34m] \e[1;92mSub-Domain Finder"
   echo -e "  \e[1;34m[\e[1;96m03\e[1;34m] \e[1;92mIP Tracer"
@@ -94,6 +94,7 @@ ________________________________________\e[1;92m"
       # Add code for option 4 here
       read -p " Target: " url
       content=$(curl -s "$url")
+      cd $HOME 
       nmap -sV -A $url --script-trace --script=http-headers --unprivileged -o $url
       echo ""
       echo -e "   \e[1;33mFile saved: $url"

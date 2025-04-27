@@ -97,7 +97,7 @@ ________________________________________\e[1;92m"
       cd $HOME 
       nmap -sV -A $url --script-trace --script=http-headers --unprivileged -o $url
       echo ""
-      echo -e "   \e[1;33mFile saved: $url"
+      echo -e "   \e[1;33mFile saved in home directory: $url"
 
       ;;
     5)
@@ -113,6 +113,7 @@ ________________________________________\e[1;92m"
       # Add code for option 6 here
       read -p " Target: " url
       content=$(curl -s "$url")
+      cd $HOME 
       rm -rf .lycheecache
       rm -rf cookie_jar
       rm -rf results

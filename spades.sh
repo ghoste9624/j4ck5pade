@@ -71,6 +71,7 @@ ________________________________________\e[1;92m"
       whois $domain
       echo ""
       nslookup $domain     
+      dnslookup $domain
 
       ;;
     2)

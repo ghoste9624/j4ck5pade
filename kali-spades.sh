@@ -95,6 +95,7 @@ echo -e "\e[0;94m________________________________________
       # Add code for option 4 here
       read -p " Target: " url
       content=$(curl -s "$url")
+      cd $HOME
       nmap -sV -A $url --script-trace --script=http-headers --unprivileged -o $url
       echo ""
       echo -e  "  \e[1;93mFile saved: $url"
